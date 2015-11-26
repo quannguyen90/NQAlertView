@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'NQAlertView_Example', :exclusive => true do
+  pod "NQAlertView", :path => "../"
+end
+
+target 'NQAlertView_Tests', :exclusive => true do
+  pod "NQAlertView", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
